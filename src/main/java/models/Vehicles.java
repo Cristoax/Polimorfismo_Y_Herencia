@@ -1,8 +1,8 @@
 package models;
 
 public abstract class Vehicles {
-    private String brand;
-    private String model;
+    private final String brand;
+    private final String model;
 
     public Vehicles(String brand, String model)
     {

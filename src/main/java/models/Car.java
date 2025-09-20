@@ -11,6 +11,7 @@ public class Car extends Vehicles implements Fuel
     @Override
     public void move()
     {
+        System.out.println();
         System.out.println(" The car " +getBrand()+ " Model " +getModel()+ " is moving through the streets ");
     }
 
@@ -21,7 +22,4 @@ public class Car extends Vehicles implements Fuel
         System.out.println(" The car " +getBrand()+ " Model " +getModel()+  " Is refueling");
 
     }
-
-
-
 }

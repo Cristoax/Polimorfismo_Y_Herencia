@@ -2,7 +2,7 @@ package models;
 
 public class Truck extends Vehicles implements Fuel {
 
-    public Truck(String brand, String model {
+    public Truck(String brand, String model) {
         super(brand, model);
     }
 
